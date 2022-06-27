@@ -1,0 +1,64 @@
+image
+    id
+    url_title
+
+
+autors_boock
+    id
+    id_image
+    price
+    description
+    type_boock
+
+trusted
+    id
+    id_image
+    description
+    company_name
+
+learn
+    id
+    description
+
+article_recources
+    id
+    id_image
+    title
+    description
+    date
+
+// Image.create({url_title : 'section_2_image_1.png'});
+
+// Image.create({url_title : 'section_2_image_2.png'});
+
+// Image.create({url_title : 'section_4_image_1.png'});
+
+// Image.create({url_title : 'section_4_image_2.png'});
+
+// Image.create({url_title : 'section_4_image_3.png'});
+
+// Image.create({url_title : 'section_4_image_4.png'});
+
+// Image.create({url_title : 'section_7_image_1.png'});
+
+// Image.create({url_title : 'section_7_image_2.png'});
+
+// Image.create({url_title : 'section_7_image_3.png'});
+
+
+// AutorsBoock.create({type_boock: 'Printed Book',description: 'As the book contains theoretical content as well as solved questions.',price:13.84,title:'Atomic One’s',url_title : 'section_2_image_1.png'});
+// AutorsBoock.create({type_boock: 'The Dark Light',description: 'As the book contains theoretical content as well as solved questions.',price:86.11,title:'Atomic One’s',url_title : 'section_2_image_2.png'});
+
+// Trusted.create({company_name: 'Amazen Corp.',description: 'They has been helping readers, music lovers, and videophiles find quality material.',url_title : 'section_4_image_1.png'});
+// Trusted.create({company_name: 'Megan Books',description: 'We help physical bookstores manage their overstock to the book inventory.',url_title : 'section_4_image_2.png'});
+// Trusted.create({company_name: 'Megank',description: 'Bookstore serving up the full spectrum of Black literature and wine black books.',url_title : 'section_4_image_3.png'});
+// Trusted.create({company_name: 'Urban Store',description: 'We also carry the latest records, islovers, and videophiles find quality material.',url_title : 'section_4_image_4.png'});
+
+// ArticleRecources.create({title: 'Significant reading has more info number',description: 'Override the digital divide with additional clickthroughs from DevOps for real-time schemas.',date: '6.10.2021',url_title : 'section_7_image_1.png'});
+// ArticleRecources.create({title: 'Many variations of pass majority have suffered',description: 'Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.',date: '6.10.2021',url_title : 'section_7_image_2.png'});
+// ArticleRecources.create({title: 'Words which don’t look even slightly believable',description: 'Podcasting operational change management inside of workflows to establish a framework.',date: '6.10.2021',url_title : 'section_7_image_3.png'});
+
+// Learn.create({description: 'Use HDFS & Map Reduce for storing & analyzing data at scale.'});
+// Learn.create({description: 'Consume streaming data using Spark Streaming, Flink, and Storm.'});
+// Learn.create({description: 'Choose an appropriate data storage technology for your application'});
+// Learn.create({description: 'Analyze non-relational data using HBase, Cassandra, and MongoDB.'});
