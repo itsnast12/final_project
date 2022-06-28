@@ -1,5 +1,7 @@
 .main
-    display: flex
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-gap: 150px
     align-items: center
     background-color: #1B3764
     padding: 30px
@@ -58,6 +60,54 @@
 
         &:hover 
             color: #FFCA42
+
+
+@media (max-width: 1370px)
+    .main
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        grid-gap: 0
+        padding: 0
+        padding-top: 30px
+
+        .btn
+            margin: auto
+            margin-top: 20px
+            
+
+        .logo
+            display: flex
+            flex-direction: column 
+            align-items: center
+            margin-left: 0px
+
+            .logotip
+                width: 30px
+                height: 30px
+                margin-bottom: 30px
+
+            .logotext
+                margin-bottom: 30px
+
+            .network
+                margin-left: 0px
+
+                .link
+                    height: 90px
+                    width: 90px
+
+    .main__list
+        flex-direction: column
+        align-items: center
+        
+
+        li+li
+            margin-left: 0px
+            
+        li
+            margin-top: 20px
+            font-size: 25px
+
 
 
  

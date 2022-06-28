@@ -12,25 +12,27 @@ export default function Nav() {
     <nav className={s.main}>
          <a href='#'>
         <div className={s.logo}>
-            <img src={logotip}></img>
-            <img src={logo_text}></img>
+            <div className={s.up}>
+                <img className={s.logotip} src={logotip}></img>
+                <img className={s.logotext} src={logo_text}></img>
+            </div>
             <div className={s.network}>
-            <a href='#' >
-                <div className={s.link}>
-                    <img src={facebook}></img>
-                </div>
-            </a>
-            <a href='#'>
-                <div className={s.link}>
-                    <img src={twitter}></img>
-                </div>
-            </a>
-            <a href='#'>
-                <div className={s.link}>
-                    <img src={ins}></img>
-                </div>
-            </a>
-        </div>
+                <a href='#' >
+                    <div className={s.link}>
+                        <img src={facebook}></img>
+                    </div>
+                </a>
+                <a href='#'>
+                    <div className={s.link}>
+                        <img src={twitter}></img>
+                    </div>
+                </a>
+                <a href='#'>
+                    <div className={s.link}>
+                        <img src={ins}></img>
+                    </div>
+                </a>
+            </div>
         </div>
         </a>
         <ul className={s.main__list}> 
